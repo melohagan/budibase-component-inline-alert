@@ -1,0 +1,47 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "spectrum-inline-alert",
+    "friendlyName": "Inline Alert",
+    "description": "In-line alerts display a non-modal message associated with objects in a view. These are often used in form validation, providing a place to aggregate feedback related to multiple fields.",
+    "icon": "Alert",
+    "hasChildren": true,
+    "settings": [
+      {
+        "type": "text",
+        "key": "title",
+        "label": "Title"
+      },
+      {
+        "type": "select",
+        "showInBar": true,
+        "label": "Variant",
+        "defaultValue": "neutral",
+        "key": "variant",
+        "options": [
+          {
+            "label": "Neutral",
+            "value": "neutral"
+          },
+          {
+            "label": "Notice",
+            "value": "notice"
+          },
+          {
+            "label": "Informative",
+            "value": "info"
+          },
+          {
+            "label": "Positive",
+            "value": "positive"
+          },
+          {
+            "label": "Negative",
+            "value": "negative"
+          }
+        ]
+      }
+    ]
+  }
+}
