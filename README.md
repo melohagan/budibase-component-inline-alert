@@ -12,3 +12,6 @@ Add to your screen and set a **title** and a **variant** theme for the inline al
 ![Screenshot 2023-01-10 at 11 59 23](https://user-images.githubusercontent.com/101575380/211546075-3bd3b079-7418-4a82-92f1-ef09850799f6.png)
 
 Place any components inside the inline alert.
+
+## Note
+This component will work with version **2.0.0** of spectrum inline alert. If Budibase is updated in the future, then this component will also need to be upgraded.
