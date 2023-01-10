@@ -33,6 +33,7 @@
 
 <style>
   .spectrum-InLineAlert {
+    width: 100%;
     --spectrum-semantic-negative-border-color: #e34850;
     --spectrum-semantic-positive-border-color: #2d9d78;
     --spectrum-semantic-informative-border-color: #3978ec;
